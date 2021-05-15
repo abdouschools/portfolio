@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@200&family=Poppins:ital,wght@0,300;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/*navbar*/
+
+.navbar {
+  position: fixed;
+  background-color: #7200ca;
+  width: 100%;
+  /*font-family: 'Newsreader', serif;*/
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+}
+.navbar .logo a {
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 80px;
+  margin: auto 15px;
+}
