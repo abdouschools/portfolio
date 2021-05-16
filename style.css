@@ -480,3 +480,61 @@ section .title::after {
 .contact .contact-content .info .sub-title {
   color: #333;
 }
+.contact .right form .fields {
+  display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+}
+.contact .right form .name {
+  margin-right: 10px;
+}
+.contact .right form .email {
+  margin-left: 10px;
+}
+.contact .right form .textarea {
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .textarea textarea {
+  resize: none;
+}
+.contact .right form .button {
+  height: 47px;
+  width: 170px;
+}
+.contact .right form .button button {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #7200ca;
+  background: #7200ca;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contact .right form .button button:hover {
+  background: none;
+  color: #7200ca;
+}
+@media (max-width: 900px) {
+  .contact .contact-content .column {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
