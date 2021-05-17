@@ -10,7 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 .max-width {
-  padding-right: 80px;
   margin: auto 15px;
 }
 /*navbar*/
@@ -191,7 +190,7 @@ html {
   }
 }
 /* about section style */
-section.about {
+section {
   padding: 100px 0;
 }
 section .title {
@@ -405,8 +404,8 @@ section .title::after {
   justify-content: space-between;
   margin-bottom: 10px;
 }
-.skills .skills-content .right .span {
-  font-weight: 500;
+.skills .skills-content .right span {
+  font-weight: 600;
   font-size: 18px;
 }
 .skills .skills-content .right .line {
@@ -445,11 +444,17 @@ section .title::after {
   }
 }
 /* section contact style */
-.contact .title::after {
-  content: "Get In Touch";
+.contact {
+  background: #111;
+  color: #fff;
 }
 .contact .title::before {
-  width: 220px;
+  width: 230px;
+  background: #fff;
+}
+.contact .title::after {
+  background: #111;
+  content: "what i provide";
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
@@ -478,10 +483,10 @@ section .title::after {
   color: #7200ca;
 }
 .contact .contact-content .row .info .head {
-  font-weight: 500;
+  font-weight: 600;
 }
 .contact .contact-content .info .sub-title {
-  color: #333;
+  color: #fff;
 }
 .contact .right form .fields {
   display: flex;
@@ -543,9 +548,11 @@ section .title::after {
 }
 /* footer style */
 footer {
+  margin-top: 80px;
   background: #111;
-  padding: 20px 23 px;
+  padding: 20px 23px;
   color: #fff;
+  text-align: center;
 }
 footer span a {
   color: #7200ca;
