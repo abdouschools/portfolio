@@ -76,7 +76,7 @@ html {
 /* home section style */
 .home {
   display: flex;
-  background: url("images/banner.jpg") no-repeat center;
+  background: url("images/developpeur-web.jpg") no-repeat center;
   background-size: cover;
   color: white;
   height: 100vh;
@@ -121,7 +121,7 @@ html {
 /* responsive */
 @media (max-width: 900px) {
   .max-width {
-    padding-right: 40px !important;
+    padding-right: 0px !important;
   }
   .navbar .menu {
     position: fixed;
@@ -313,6 +313,7 @@ section .title::after {
 .services .title::after {
   background: #111;
   content: "what i provide";
+  padding: 0px !important;
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -365,11 +366,12 @@ section .title::after {
 .skills .title::after {
   background: #fff;
   content: "what i Know";
-  margin-left: 10px;
+  padding: 0px !important;
 }
 .skills .title::before {
   background: #111;
   align-items: center;
+  width: 290px !important;
 }
 .skills .skills-content .left .text {
   font-size: 25px;
@@ -449,12 +451,13 @@ section .title::after {
   color: #fff;
 }
 .contact .title::before {
-  width: 230px;
   background: #fff;
+  width: 160px !important;
 }
 .contact .title::after {
   background: #111;
-  content: "what i provide";
+  content: "contact me";
+  padding: 0px !important;
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
